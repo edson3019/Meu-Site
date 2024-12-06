@@ -1,0 +1,82 @@
+/* Define a fonte e o espaçamento padrão para todo o site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Estiliza o cabeçalho e o menu de navegação */
+  header {
+    background: #333; /* Fundo escuro */
+    color: #fff;      /* Texto branco */
+    padding: 10px 0;
+  }
+  
+  /* Remove a formatação padrão da lista do menu */
+  nav ul {
+    display: flex;              /* Exibe os itens na mesma linha */
+    list-style: none;           /* Remove os marcadores da lista */
+    justify-content: center;    /* Centraliza os itens do menu */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estiliza os itens e links do menu */
+  nav ul li {
+    margin: 0 15px; /* Espaço entre os itens */
+  }
+  
+  nav ul li a {
+    color: #fff;            /* Texto branco */
+    text-decoration: none;  /* Remove o sublinhado */
+    font-weight: bold;      /* Deixa o texto em negrito */
+  }
+  
+  /* Estilo ao passar o mouse sobre os links */
+  nav ul li a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado no hover */
+  }
+  
+  /* Estiliza o conteúdo principal */
+  main {
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estiliza o rodapé */
+  footer {
+    background: #333;  /* Fundo escuro */
+    color: #fff;       /* Texto branco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;   /* Fixa o rodapé na parte inferior da página */
+    bottom: 0;
+    width: 100%;
+  }
+  /* Remove o padding padrão do body para evitar deslocamento do conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Remove a margem e o padding padrão das listas */
+  ul {
+    margin: 0;             /* Remove margens externas */
+    padding-left: 20px;    /* Define um recuo interno (esquerda) para os itens */
+    list-style-position: inside; /* Garante que os pontos fiquem dentro da área da lista */
+  }
+  
+  /* Estiliza os itens da lista */
+  li {
+    margin-bottom: 10px;   /* Espaçamento entre os itens da lista */
+  }
+  
+  /* Seções principais (centraliza o texto e dá espaçamento interno) */
+  main {
+    padding: 20px;
+    text-align: center;      /* Garante que o texto fique alinhado à esquerda */
+  }
+  
